@@ -4,9 +4,12 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main - Positive anything is better than negative nothing
+ */
 int main(void)
 {
-	int n;
+        int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
