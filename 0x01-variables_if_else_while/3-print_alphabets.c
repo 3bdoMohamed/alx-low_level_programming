@@ -12,7 +12,7 @@ int main(void)
 	c1 = 'A';
 
 	while
-		(c <= 'z')
+		(c <= 'z') {
 			putchar(c);
 			c++;
 		}
